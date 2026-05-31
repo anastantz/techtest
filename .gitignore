@@ -1,0 +1,6 @@
+# Nunca commitar credenciais de banco ou segredos da aplicação
+appsettings.json
+appsettings.*.json
+
+# Exceção: commita o template sem valores reais
+!appsettings.example.json
